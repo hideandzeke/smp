@@ -7,7 +7,6 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <!-- Added for icon library-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 <title>Zeke's Links</title>
 <meta name="Generator" content="Cocoa HTML Writer">
 <meta name="CocoaVersion" content="1671.6">
@@ -103,10 +102,12 @@ img{
 var chooser = document.getElementsByClassName("chooser");
 
 for(let i=0;i<chooser.length;i++){
-  chooser[i].onclick = function(){
-  	chooser[i].style.backgroundColor = "grey";
-  	setTimeout(function(){chooser[i].style.backgroundColor = "black";}, 50);
-  }
+	chooser[i].onclick = function(){
+		chooser[i].style.backgroundColor = "grey";
+		setTimeout(function(){
+			chooser[i].style.backgroundColor = "black";
+		}, 50);
+	}
 }
 </script>
 </body>
